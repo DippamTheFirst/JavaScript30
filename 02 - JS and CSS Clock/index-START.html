@@ -60,6 +60,7 @@
       /* account for the height of the clock hands */
     }
 
+
     .hand {
       width: 50%;
       height: 6px;
@@ -70,6 +71,17 @@
       transform: rotate(90deg);
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+      border-radius: 10px 0px 0px 10px;
+    }
+
+    .hour-hand {
+      width: 25%;
+      left: 25%;
+    }
+
+    .min-hand {
+      width: 40%;
+      left: 10%;
     }
   </style>
 
